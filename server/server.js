@@ -19,7 +19,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 //create a separate file for this and then import/use that file here
 
 mongoose
-.connect("mongodb+srv://abysunnyas10:vambo@cluster0.ijtjh.mongodb.net/")
+.connect("...")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
